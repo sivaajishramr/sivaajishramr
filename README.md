@@ -28,7 +28,7 @@
 - 🎨 Creating 3D worlds in **Blender**
 - 🤖 IoT projects with **ESP32 & Arduino**
 - 🌐 Full-Stack Web Dev with **React & Flask**
-- ⚡ Fun fact: I built a real-time AI speech translator for under **₹440!**
+- ⚡ Fun fact: I built a real-time AI speech translator 
 
 ---
 
