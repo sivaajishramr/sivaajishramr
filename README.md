@@ -18,6 +18,9 @@
 
   <!-- Quick Telemetry & Status Badges -->
   <p align="center">
+    <a href="https://portfolio-nine-nu-yip0zsyli1.vercel.app/">
+      <img src="https://img.shields.io/badge/PORTFOLIO-LIVE_SITE-18241b?style=flat-square&logo=vercel&logoColor=8da381" alt="Live Portfolio Website" />
+    </a>
     <a href="https://github.com/sivaajishramr">
       <img src="https://img.shields.io/badge/ENGINE-UNITY_3D-12161c?style=flat-square&logo=unity&logoColor=8da381" alt="Unity 3D" />
     </a>
@@ -365,8 +368,8 @@ Status: "Active Personal R&D"
 Feel free to connect to discuss game development, Unity projects, XR experimentation, or creative collaboration:
 
 <p align="left">
-  <a href="https://ajishportfolio07.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Live_Site-18241b?style=for-the-badge&logo=googlechrome&logoColor=8da381" alt="Portfolio Website" />
+  <a href="https://portfolio-nine-nu-yip0zsyli1.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Live_Site-18241b?style=for-the-badge&logo=vercel&logoColor=8da381" alt="Portfolio Website" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/siva-ajish-ram-181353323">
