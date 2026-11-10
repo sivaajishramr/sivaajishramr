@@ -1,0 +1,132 @@
+<svg width="100%" height="auto" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c0f"/>
+      <stop offset="50%" stop-color="#0e1318"/>
+      <stop offset="100%" stop-color="#080a0c"/>
+    </linearGradient>
+    <pattern id="about-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#141a22" stroke-width="0.6"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif; }
+
+      /* Game cycle continuous energy stream */
+      @keyframes cycle-stream {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -40; }
+      }
+      .cycle-flow {
+        stroke-dasharray: 6 6;
+        animation: cycle-stream 2s linear infinite;
+      }
+
+      /* Core pulse */
+      @keyframes core-breathe {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.15); opacity: 1; }
+      }
+      .engine-core {
+        animation: core-breathe 3s ease-in-out infinite;
+        transform-origin: 800px 125px;
+      }
+
+      /* Status LED blink */
+      @keyframes led-blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      .led-1 { animation: led-blink 2s ease-in-out infinite; }
+      .led-2 { animation: led-blink 2s ease-in-out 0.5s infinite; }
+      .led-3 { animation: led-blink 2s ease-in-out 1s infinite; }
+      .led-4 { animation: led-blink 2s ease-in-out 1.5s infinite; }
+    </style>
+  </defs>
+
+  <rect width="960" height="240" rx="10" fill="url(#about-bg)"/>
+  <rect width="960" height="240" rx="10" fill="url(#about-grid)" opacity="0.75"/>
+  <rect x="0.5" y="0.5" width="959" height="239" rx="9.5" stroke="#1f2733" stroke-width="1"/>
+
+  <!-- Left Accent Line -->
+  <line x1="1" y1="20" x2="1" y2="220" stroke="#7ea172" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Top Metadata Bar -->
+  <g class="mono" font-size="10" fill="#586777" letter-spacing="0.08em">
+    <text x="36" y="34" fill="#8da381" font-weight="700">PROFILE // ABOUT ME</text>
+    <text x="175" y="34" fill="#2d3744">|</text>
+    <text x="195" y="34">DISCIPLINE: GAMEPLAY SYSTEMS</text>
+    <text x="435" y="34" fill="#2d3744">|</text>
+    <text x="450" y="34">ENGINE: UNITY &amp; C#</text>
+    <text x="610" y="34" fill="#2d3744">|</text>
+    <text x="625" y="34" fill="#7ea172">RUNTIME: ACTIVE</text>
+  </g>
+  <line x1="36" y1="46" x2="924" y2="46" stroke="#18202a" stroke-width="1"/>
+
+  <!-- Left Content: About Me Matrix -->
+  <g class="sans">
+    <!-- Point 1: Primary Focus -->
+    <g transform="translate(36, 68)">
+      <circle class="led-1" cx="6" cy="12" r="3" fill="#7ea172"/>
+      <text x="18" y="16" class="mono" font-size="11" font-weight="700" fill="#8da381">01. PRIMARY FOCUS</text>
+      <text x="18" y="34" font-size="13" fill="#cbd5e1">Dedicated to Game Development, interactive 3D experiences &amp; gameplay mechanics.</text>
+    </g>
+
+    <!-- Point 2: Engine & Core -->
+    <g transform="translate(36, 114)">
+      <circle class="led-2" cx="6" cy="12" r="3" fill="#7ea172"/>
+      <text x="18" y="16" class="mono" font-size="11" font-weight="700" fill="#8da381">02. ENGINE &amp; PROGRAMMING</text>
+      <text x="18" y="34" font-size="13" fill="#cbd5e1">Building robust systems with Unity and C#, from kinematics to gameplay UI.</text>
+    </g>
+
+    <!-- Point 3: Trajectory & Teamwork -->
+    <g transform="translate(36, 160)">
+      <circle class="led-3" cx="6" cy="12" r="3" fill="#7ea172"/>
+      <text x="18" y="16" class="mono" font-size="11" font-weight="700" fill="#8da381">03. XR &amp; COLLABORATION</text>
+      <text x="18" y="34" font-size="13" fill="#cbd5e1">Expanding into Extended Reality (XR); experienced contributing in game dev teams.</text>
+    </g>
+  </g>
+
+  <!-- Right Side: Animated Game Development Loop -->
+  <g transform="translate(670, 56)">
+    <rect x="0" y="0" width="254" height="168" rx="8" fill="#0b0e12" stroke="#1a232e" stroke-width="1"/>
+
+    <!-- Header -->
+    <text x="16" y="24" class="mono" font-size="9" fill="#586777" letter-spacing="0.08em">DEVELOPMENT PIPELINE</text>
+    <line x1="16" y1="32" x2="238" y2="32" stroke="#161e27" stroke-width="1"/>
+
+    <!-- Central Engine Core with Breathing Animation -->
+    <circle class="engine-core" cx="127" cy="100" r="14" fill="#131e16" stroke="#7ea172" stroke-width="1.5"/>
+    <text x="127" y="103" class="mono" font-size="7.5" font-weight="700" fill="#f0f6fc" text-anchor="middle">UNITY</text>
+
+    <!-- Outer Diamond Path (Continuous Flowing Beams) -->
+    <!-- Top (Idea) to Right (Mechanics) -->
+    <line class="cycle-flow" x1="127" y1="48" x2="202" y2="100" stroke="#7ea172" stroke-width="1.5"/>
+    <!-- Right (Mechanics) to Bottom (Playable) -->
+    <line class="cycle-flow" x1="202" y1="100" x2="127" y2="152" stroke="#7ea172" stroke-width="1.5"/>
+    <!-- Bottom (Playable) to Left (Worlds) -->
+    <line class="cycle-flow" x1="127" y1="152" x2="52" y2="100" stroke="#7ea172" stroke-width="1.5"/>
+    <!-- Left (Worlds) to Top (Idea) -->
+    <line class="cycle-flow" x1="52" y1="100" x2="127" y2="48" stroke="#7ea172" stroke-width="1.5"/>
+
+    <!-- Node 1: Top (Idea) -->
+    <circle cx="127" cy="48" r="6" fill="#11171d" stroke="#2b3b4c" stroke-width="1.5"/>
+    <circle cx="127" cy="48" r="2.5" fill="#f0f6fc"/>
+    <text x="127" y="40" class="mono" font-size="7" fill="#8da381" text-anchor="middle">IDEATE</text>
+
+    <!-- Node 2: Right (Mechanics) -->
+    <circle cx="202" cy="100" r="6" fill="#11171d" stroke="#2b3b4c" stroke-width="1.5"/>
+    <circle cx="202" cy="100" r="2.5" fill="#f0f6fc"/>
+    <text x="202" y="118" class="mono" font-size="7" fill="#8da381" text-anchor="middle">MECHANICS</text>
+
+    <!-- Node 3: Bottom (Playable) -->
+    <circle cx="127" cy="152" r="6" fill="#11171d" stroke="#2b3b4c" stroke-width="1.5"/>
+    <circle cx="127" cy="152" r="2.5" fill="#7ea172"/>
+    <text x="127" y="164" class="mono" font-size="7" fill="#8da381" text-anchor="middle">PLAYABLE</text>
+
+    <!-- Node 4: Left (Worlds) -->
+    <circle cx="52" cy="100" r="6" fill="#11171d" stroke="#2b3b4c" stroke-width="1.5"/>
+    <circle cx="52" cy="100" r="2.5" fill="#f0f6fc"/>
+    <text x="52" y="118" class="mono" font-size="7" fill="#8da381" text-anchor="middle">3D WORLD</text>
+  </g>
+</svg>

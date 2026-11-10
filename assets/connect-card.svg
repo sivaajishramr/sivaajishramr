@@ -1,0 +1,84 @@
+<svg width="100%" height="auto" viewBox="0 0 960 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="conn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c0f"/>
+      <stop offset="60%" stop-color="#0e1318"/>
+      <stop offset="100%" stop-color="#080a0c"/>
+    </linearGradient>
+    <pattern id="conn-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#131922" stroke-width="0.5"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif; }
+
+      /* Signal broadcast waves */
+      @keyframes signal-wave {
+        0% { r: 6px; opacity: 1; stroke-width: 1.5px; }
+        100% { r: 36px; opacity: 0; stroke-width: 0.5px; }
+      }
+      .broadcast-1 {
+        animation: signal-wave 2.8s cubic-bezier(0.2, 0.8, 0.4, 1) infinite;
+        transform-origin: 860px 85px;
+      }
+      .broadcast-2 {
+        animation: signal-wave 2.8s cubic-bezier(0.2, 0.8, 0.4, 1) 1.2s infinite;
+        transform-origin: 860px 85px;
+      }
+
+      /* Blinking cursor */
+      @keyframes cursor-pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .conn-blinker {
+        animation: cursor-pulse 0.9s steps(2, start) infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="960" height="170" rx="10" fill="url(#conn-bg)"/>
+  <rect width="960" height="170" rx="10" fill="url(#conn-grid)" opacity="0.8"/>
+  <rect x="0.5" y="0.5" width="959" height="169" rx="9.5" stroke="#1f2834" stroke-width="1"/>
+
+  <!-- Left Accent -->
+  <line x1="1" y1="16" x2="1" y2="154" stroke="#7ea172" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Top Metadata -->
+  <g class="mono" font-size="10" fill="#586777" letter-spacing="0.08em">
+    <text x="36" y="28" fill="#8da381" font-weight="700">CHANNEL // COMMUNICATION INTERFACE</text>
+    <text x="260" y="28" fill="#2d3744">|</text>
+    <text x="275" y="28">PROTOCOL: DIRECT TRANSMISSION</text>
+    <text x="500" y="28" fill="#2d3744">|</text>
+    <text x="515" y="28" fill="#7ea172">SIGNAL STRENGTH: 100%</text>
+  </g>
+  <line x1="36" y1="38" x2="924" y2="38" stroke="#17202b" stroke-width="1"/>
+
+  <!-- Terminal Readout -->
+  <g class="mono" font-size="11">
+    <text x="36" y="66" fill="#8da381">ajish@runtime:~$ <tspan fill="#f0f6fc">ping collaboration --xr --gamedev</tspan></text>
+    <text x="36" y="94" fill="#6a7d8f">[200 OK] BROADCAST RECEIVED</text>
+    <text x="36" y="118" fill="#cbd5e1" font-weight="600">
+      STATUS: OPEN TO GAME DEVELOPMENT OPPORTUNITIES, XR EXPERIMENTS &amp; TEAM PROJECTS
+      <tspan class="conn-blinker" fill="#7ea172">_</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Message -->
+  <text x="36" y="148" class="sans" font-size="12" fill="#788899">
+    Reach out via LinkedIn, explore my web portfolio, or connect via GitHub for collaboration.
+  </text>
+
+  <!-- Right Visual: Animated Broadcast Signal Station -->
+  <g transform="translate(860, 85)">
+    <!-- Expanding Broadcast Signal Waves -->
+    <circle class="broadcast-1" cx="0" cy="0" r="6" fill="none" stroke="#7ea172"/>
+    <circle class="broadcast-2" cx="0" cy="0" r="6" fill="none" stroke="#8da381"/>
+
+    <!-- Central Signal Tower Node -->
+    <circle cx="0" cy="0" r="5" fill="#141f17" stroke="#7ea172" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2.5" fill="#f0f6fc"/>
+
+    <text x="0" y="42" class="mono" font-size="8" fill="#6a7e70" text-anchor="middle">TRANSMITTING</text>
+  </g>
+</svg>

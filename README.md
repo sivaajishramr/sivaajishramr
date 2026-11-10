@@ -40,6 +40,11 @@
 
 ## 🧭 Identity & Overview
 
+<!-- Animated Development Pipeline & Core Identity Card -->
+<img src="./assets/about-me-card.svg" alt="Identity and Development Pipeline" width="100%" />
+
+<br />
+
 > **I'm a Computer Science Engineering student with a strong interest in Game Development, focused on creating interactive 3D experiences, gameplay systems, and immersive environments.**
 > 
 > **I enjoy bringing ideas to life through game engines, experimenting with gameplay mechanics, and understanding how games work behind the scenes.**
@@ -75,6 +80,9 @@
 </p>
 
 ## 🛠️ Technical Skills &amp; Tools
+
+<!-- Animated Technical Capabilities & Architecture Matrix -->
+<img src="./assets/skills-matrix.svg" alt="Technical Capabilities Matrix" width="100%" />
 
 <br />
 
@@ -152,6 +160,22 @@ Role: "Gameplay & Interaction Systems Contributor"
   </a>
 </p>
 
+<details>
+  <summary><b>📐 View Technical Architecture &amp; System Deep-Dive</b></summary>
+  <br />
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ METER CHALU // CORE GAMEPLAY ARCHITECTURE                                              │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Vehicle Input Controller   : Mobile touch inputs mapped to acceleration & brake curves│
+│ • State Machine              : Idle ➔ Passenger Pickup ➔ Transit ➔ Bargaining ➔ Complete│
+│ • Economy & Bargaining Logic : Dynamic fare calculations based on distance & passenger mood│
+│ • UI Event Dispatcher        : Decoupled C# Actions updating speed & fare with zero GC  │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+</details>
+
 ---
 
 ### PROJECT 02 — Dino Merge Battle | Merge & Strategy Game
@@ -194,6 +218,23 @@ Systems: ["Dinosaur Evolution", "Battle Decks", "DNA Lab", "DinoDex Catalog", "A
   </a>
 </p>
 
+<details>
+  <summary><b>📐 View Technical Architecture &amp; System Deep-Dive</b></summary>
+  <br />
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ DINO MERGE BATTLE // CORE GAMEPLAY ARCHITECTURE                                        │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Merge & Evolution Matrix   : Coordinate-based grid tracking identical tier evolution  │
+│ • DNA Lab Combination Engine : Combinatorial registry mapping parent nodes to apex forms │
+│ • DinoDex Catalog Model      : ScriptableObject database persisting discovered species  │
+│ • Autonomous Combat Loop     : Target acquisition, ability cooldowns & auto-attack AI   │
+│ • Render Pipeline            : Unity Universal Render Pipeline (URP) optimized for RTS │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+</details>
+
 ---
 
 ### PROJECT 03 — Forgotten Cavern | Personal Game Project
@@ -224,6 +265,22 @@ Status: "Active Personal R&D"
     <img src="https://img.shields.io/badge/Devlog-In_Progress-141920?style=flat-square&logoColor=a0acba" alt="Devlog Link" />
   </a>
 </p>
+
+<details>
+  <summary><b>📐 View Technical Architecture &amp; System Deep-Dive</b></summary>
+  <br />
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ FORGOTTEN CAVERN // CORE GAMEPLAY ARCHITECTURE                                         │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ • Atmosphere & Volumetrics   : Custom fog volume attenuation & organic light falloff   │
+│ • Character Controller       : Third-person kinematics with slope sliding & camera damp│
+│ • Lighting & Pacing Engine   : Dynamic torch point light attenuation with flicker scripts│
+│ • Narrative Flow System      : Area-triggered audio & visual environmental storytelling │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+</details>
 
 <p align="center">
   <img src="./assets/divider.svg" alt="Animated Section Divider" width="100%" />
@@ -300,15 +357,24 @@ Status: "Active Personal R&D"
 
 ## 🤝 Let's Connect
 
+<!-- Animated Communication Interface & Transmission Card -->
+<img src="./assets/connect-card.svg" alt="Direct Transmission Interface" width="100%" />
+
+<br />
+
 Feel free to connect to discuss game development, Unity projects, XR experimentation, or creative collaboration:
 
 <p align="left">
-  <a href="https://github.com/sivaajishramr">
-    <img src="https://img.shields.io/badge/GitHub-sivaajishramr-12161c?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub Profile" />
+  <a href="https://ajishportfolio07.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Live_Site-18241b?style=for-the-badge&logo=googlechrome&logoColor=8da381" alt="Portfolio Website" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/siva-ajish-ram-181353323">
     <img src="https://img.shields.io/badge/LinkedIn-Ajish-12161c?style=for-the-badge&logo=linkedin&logoColor=0077b5" alt="LinkedIn Profile" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/sivaajishramr">
+    <img src="https://img.shields.io/badge/GitHub-sivaajishramr-12161c?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub Profile" />
   </a>
   &nbsp;
   <a href="mailto:your_email@example.com">
