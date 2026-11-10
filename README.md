@@ -6,14 +6,14 @@
 
 <div align="center">
 
-  <!-- Bespoke 3D Viewport Hero Banner -->
-  <img src="./assets/hero-banner.svg" alt="Ajish - Game Developer Hero Banner" width="100%" />
+  <!-- Bespoke 3D Viewport Hero Banner with Live Engine Animations -->
+  <img src="./assets/hero-banner.svg" alt="Ajish - Game Developer 3D Viewport Hero Banner" width="100%" />
 
   <br />
 
   <!-- Animated Typing Headline -->
   <a href="https://github.com/sivaajishramr">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1200&color=8DA381&center=true&vCenter=true&repeat=true&width=620&height=42&lines=Game+Developer;Unity+%26+C%23+Programmer;XR+%26+Interactive+3D+Explorer;Gameplay+Mechanics+Builder" alt="Typing Animation: Game Developer, Unity & C# Specialist, XR Explorer" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1100&color=8DA381&center=true&vCenter=true&repeat=true&width=620&height=44&lines=Game+Developer;Unity+Developer;XR+Explorer;Creative+Programmer" alt="Typing Animation: Game Developer, Unity Developer, XR Explorer, Creative Programmer" />
   </a>
 
   <!-- Quick Telemetry & Status Badges -->
@@ -35,79 +35,79 @@
 </div>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="Animated Section Divider" width="100%" />
 </p>
 
 ## 🧭 Identity & Overview
 
-> **"I'm a Computer Science Engineering student with a strong interest in Game Development, focused on creating interactive 3D experiences, gameplay systems, and immersive environments.**
+> **I'm a Computer Science Engineering student with a strong interest in Game Development, focused on creating interactive 3D experiences, gameplay systems, and immersive environments.**
 > 
 > **I enjoy bringing ideas to life through game engines, experimenting with gameplay mechanics, and understanding how games work behind the scenes.**
 > 
-> **Currently, I'm expanding my knowledge of Extended Reality (XR) and exploring the possibilities of immersive technologies."**
+> **Currently, I'm expanding my knowledge of Extended Reality (XR) and exploring the possibilities of immersive technologies.**
 
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎮 Core Focus</h3>
+      <h3>🎮 About Me</h3>
       <ul>
-        <li><b>Primary Focus:</b> Game Development with Unity &amp; C#.</li>
-        <li><b>Gameplay Engineering:</b> Mechanics, player movement, and camera systems.</li>
-        <li><b>Interactive Worlds:</b> 3D environments, animation controllers, and game UI.</li>
+        <li>🎮 <b>Primary Focus:</b> Game Development.</li>
+        <li>🕹️ <b>Engine &amp; Core:</b> Working with Unity and C#.</li>
+        <li>🌐 <b>Next Frontier:</b> Currently learning Extended Reality (XR).</li>
+        <li>🧩 <b>Mechanics:</b> Interested in gameplay programming, game mechanics, and interactive environments.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🌐 Trajectory &amp; Teamwork</h3>
+      <h3>🎨 Visuals &amp; Collaboration</h3>
       <ul>
-        <li><b>Current Learning Frontier:</b> Extended Reality (XR) &amp; immersive 3D computing.</li>
-        <li><b>Collaboration:</b> Proven experience contributing to team-based game development.</li>
-        <li><b>Design Philosophy:</b> Passionate about turning creative ideas into playable, polished experiences.</li>
+        <li>🎨 <b>Aesthetics:</b> Exploring 3D environments, animation, and game UI.</li>
+        <li>🤝 <b>Teamwork:</b> Have experience contributing to team-based game development.</li>
+        <li>🚀 <b>Philosophy:</b> Passionate about turning creative ideas into playable experiences.</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="Animated Section Divider" width="100%" />
 </p>
 
 ## 🛠️ Technical Skills &amp; Tools
 
 <br />
 
-#### 🎮 Game Development &amp; Systems Programming
+#### 🎮 Game Development
 ```
-┌───────────────────────────────┬────────────────────────────────────────────────────────┐
-│ DOMAIN                        │ TECHNOLOGIES & CAPABILITIES                            │
-├───────────────────────────────┼────────────────────────────────────────────────────────┤
-│ Game Engine                   │ Unity 3D (Universal Render Pipeline / URP)             │
-│ Programming Language          │ C# (Gameplay scripting, object-oriented systems)       │
-│ Spatial Systems               │ 3D Game Development & World Coordinates                │
-│ Player & Camera Systems       │ First/Third-person Locomotion, Kinematics, Virtual Cams │
-│ Animation                     │ Animator Controllers, State Machines, Blend Trees      │
-│ Gameplay Architecture         │ Interactive Mechanics, HUD/UI Bindings, Game Loops     │
-└───────────────────────────────┴────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────┬────────────────────────────────────────────────────────┐
+│ SPECIALIZATION                        │ CAPABILITIES & SYSTEMS                                 │
+├───────────────────────────────────────┼────────────────────────────────────────────────────────┤
+│ Engine                                │ Unity (3D Engine, URP Pipelines)                       │
+│ Programming                           │ C# (Gameplay Architecture, Object-Oriented Systems)    │
+│ Spatial Systems                       │ 3D Game Development & World Coordinates                │
+│ Locomotion & Virtual Cameras          │ Player Movement & Camera Systems                       │
+│ Character Animation                   │ Animation Controllers, Blend Trees, State Machines     │
+│ Core Systems                          │ Gameplay Mechanics, Interaction Loops, HUD Bindings    │
+└───────────────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
 <p>
   <img src="https://img.shields.io/badge/Unity-12161c?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
   <img src="https://img.shields.io/badge/C%23-12161c?style=for-the-badge&logo=csharp&logoColor=8da381" alt="C#" />
-  <img src="https://img.shields.io/badge/3D_Development-12161c?style=for-the-badge&logoColor=cbd5e1" alt="3D Game Development" />
-  <img src="https://img.shields.io/badge/Gameplay_Mechanics-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Gameplay Mechanics" />
+  <img src="https://img.shields.io/badge/3D_Game_Development-12161c?style=for-the-badge&logoColor=cbd5e1" alt="3D Game Development" />
+  <img src="https://img.shields.io/badge/Player_Movement_%26_Camera-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Player Movement and Camera Systems" />
   <img src="https://img.shields.io/badge/Animation_Controllers-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Animation Controllers" />
-  <img src="https://img.shields.io/badge/Movement_&_Camera-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Movement & Camera" />
+  <img src="https://img.shields.io/badge/Gameplay_Mechanics-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Gameplay Mechanics" />
 </p>
 
 #### 🌐 Currently Exploring
 <p>
   <img src="https://img.shields.io/badge/Extended_Reality_(XR)-18241b?style=for-the-badge&logoColor=8da381" alt="Extended Reality XR" />
   <img src="https://img.shields.io/badge/Immersive_Interactive_Experiences-18241b?style=for-the-badge&logoColor=8da381" alt="Immersive Interactive Experiences" />
-  <img src="https://img.shields.io/badge/Spatial_Interactions-18241b?style=for-the-badge&logoColor=8da381" alt="Spatial Interactions" />
 </p>
 
-#### ⚙️ Development Tools &amp; Environment
+#### ⚙️ Development Tools
 <p>
   <img src="https://img.shields.io/badge/Git-12161c?style=for-the-badge&logo=git&logoColor=f05032" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-12161c?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -116,28 +116,31 @@
 </p>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="Animated Section Divider" width="100%" />
 </p>
 
 ## 🕹️ Featured Game Development Projects
 
-### 01 · Meter Chalu | Rural Driving Game
+### PROJECT 01 — Meter Chalu | Rural Driving Game
 
+<!-- Animated Driving HUD & Rural Road Vector -->
 <img src="./assets/project-meter-chalu.svg" alt="Project 01: Meter Chalu Rural Driving Game" width="100%" />
 
 > **A rural-themed mobile driving game involving driving gameplay, passenger interactions, fares, rewards, and bargaining.**
 
-* **Vehicle Dynamics & Controls:** Implemented core mobile driving mechanics, including throttle acceleration, responsive braking, steering, and tactile horn interactions.
-* **Passenger & Economy Loop:** Engineered passenger pickup systems, ride completion validation, and dynamic gameplay concepts centered around passenger fares, rewards, and interactive bargaining.
-* **Missions & Persistence:** Designed mission progression flow, player progress saving, and an intuitive mobile gameplay HUD displaying speed, passenger status, and fares.
-* **Team Contribution:** Collaborated within a development team to align gameplay feel, vehicle handling, and UI responsiveness.
+#### Project Details:
+- 🚗 **Contributed to a rural-themed mobile driving game.**
+- 🕹️ **Worked with driving controls** such as acceleration, braking, and horn interactions.
+- 👥 **Explored passenger interactions** and ride completion systems.
+- 💰 **Worked on gameplay concepts** involving fares, rewards, and bargaining.
+- 🗺️ **Explored mission systems**, saving progress, and gameplay HUD elements.
 
 ```yaml
 Title: "Meter Chalu"
-Genre: "Rural Driving Simulator & Economy"
-Platform: "Mobile / Android"
-Tech Stack: ["Unity 3D", "C#", "Mobile Touch Controls", "Vehicle Physics", "Economy & HUD"]
-Status: "Team Contribution / Playable Build"
+Genre: "Rural Driving Game"
+Platform: "Mobile"
+Key Focus: ["Driving Controls", "Passenger Interactions", "Fares & Bargaining", "Mission Saves", "HUD Elements"]
+Role: "Gameplay & Interaction Systems Contributor"
 ```
 
 <p>
@@ -151,24 +154,35 @@ Status: "Team Contribution / Playable Build"
 
 ---
 
-### 02 · Dino Merge Battle | Merge & Strategy Game
+### PROJECT 02 — Dino Merge Battle | Merge & Strategy Game
 
+<!-- Animated Isometric Battlefield & Evolution Vector -->
 <img src="./assets/project-dino-merge.svg" alt="Project 02: Dino Merge Battle" width="100%" />
 
 > **A dinosaur-themed game combining merge mechanics, card collection, evolution, and real-time strategy battles.**
 
-* **Card Collection & Merge Evolution:** Designed systems to collect dinosaur cards and merge identical units to evolve combat dinosaurs into higher-tier apex species.
-* **Tactical Deck Building:** Created battle deck configurations where players curate specialized dinosaur teams based on stats and synergies.
-* **The DNA Lab & DinoDex:** Developed the DNA Lab mechanic for discovering new hybrid dinosaur combinations alongside a comprehensive DinoDex catalog to track species discoveries.
-* **Isometric Deployment & Real-Time Combat:** Built strategic deployment grids allowing players to select spawn coordinates before triggering automated combat loops powered by unique dinosaur abilities.
-* **Visual Direction:** Rendered in Unity 3D with the Universal Render Pipeline (URP), pairing stylized 3D dinosaur characters with clean isometric battle arena environments.
+#### Project Concepts:
+- 🧬 **Collect dinosaur cards and merge identical cards** to evolve dinosaurs.
+- 🃏 **Build battle decks** using collected dinosaur cards.
+- 🔬 **Discover new dinosaur combinations** through the DNA Lab.
+- 📖 **Explore a DinoDex system** to track discovered dinosaurs.
+- 🎯 **Strategic deployment** with player-selected cards and spawn locations.
+- ⚔️ **Automatic combat** with dinosaur abilities.
+- 🦖 **3D dinosaur characters** and an isometric battle arena.
+
+#### Development Direction:
+- **Engine:** Unity 3D
+- **Graphics:** Universal Render Pipeline (URP)
+- **Aesthetic:** Stylized 3D environments and dinosaur characters
+- **Core Loops:** Merge and evolution mechanics
+- **Tactics:** Card collection and battle systems
 
 ```yaml
 Title: "Dino Merge Battle"
-Genre: "Merge Evolution & Real-Time Strategy"
-Perspective: "Isometric 3D Arena"
-Tech Stack: ["Unity 3D", "Universal Render Pipeline (URP)", "C#", "Merge Systems", "Deck Building"]
-Architecture: ["DNA Lab Combinations", "DinoDex Tracking", "Autonomous Combat AI"]
+Genre: "Merge & Real-Time Strategy Game"
+Perspective: "Isometric Battle Arena"
+Engine: "Unity 3D (Universal Render Pipeline - URP)"
+Systems: ["Dinosaur Evolution", "Battle Decks", "DNA Lab", "DinoDex Catalog", "Auto-Combat Abilities"]
 ```
 
 <p>
@@ -182,21 +196,23 @@ Architecture: ["DNA Lab Combinations", "DinoDex Tracking", "Autonomous Combat AI
 
 ---
 
-### 03 · Forgotten Cavern | Personal Game Project
+### PROJECT 03 — Forgotten Cavern | Personal Game Project
 
+<!-- Animated Subterranean Exploration & Lantern Vector -->
 <img src="./assets/project-forgotten-cavern.svg" alt="Project 03: Forgotten Cavern" width="100%" />
 
-> **A personal 3D game project exploring a story-driven gaming experience through environmental atmosphere and narrative design.**
+> **A personal 3D game project exploring a story-driven gaming experience.**
 
-* **Story-Driven Concept:** Crafting an intimate, atmospheric 3D adventure focused on exploration, environmental discovery, and narrative pacing.
-* **Atmospheric Environment Design:** Sculpting subterranean caverns with stylized low-poly formations, volumetric fog, dynamic lighting, and moody acoustic ambiance.
-* **Character & Interaction Exploration:** Developing third-person character locomotion, exploration mechanics, and quiet storytelling embedded directly into the terrain and ruins.
+#### Project Details:
+- 📖 **Exploring a story-driven 3D game concept.**
+- 🌄 **Working on environment design** and atmosphere.
+- 🧭 **Exploring character design**, gameplay, and storytelling.
 
 ```yaml
 Title: "Forgotten Cavern"
-Genre: "Story-Driven 3D Atmospheric Adventure"
-Platform: "PC / 3D Engine"
-Tech Stack: ["Unity 3D", "C#", "Level & Environment Design", "Atmospheric Lighting", "Character Systems"]
+Genre: "Story-Driven 3D Adventure"
+Perspective: "Third-Person Exploration"
+Key Focus: ["Environment Design", "Atmosphere & Mood", "Character Design", "Storytelling", "3D Gameplay"]
 Status: "Active Personal R&D"
 ```
 
@@ -210,12 +226,13 @@ Status: "Active Personal R&D"
 </p>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="Animated Section Divider" width="100%" />
 </p>
 
-## 🔬 Currently Learning &amp; Research
+## 🔬 Currently Learning
 
-<img src="./assets/xr-focus.svg" alt="Currently Learning: Extended Reality XR" width="100%" />
+<!-- Animated 6-DOF Spatial Tracking & Orbiting Sensor Card -->
+<img src="./assets/xr-focus.svg" alt="Currently Learning: Extended Reality XR Focus" width="100%" />
 
 <br />
 
@@ -223,28 +240,28 @@ Status: "Active Personal R&D"
   <tr>
     <td width="25%" align="center">
       <h4>🥽 Extended Reality (XR)</h4>
-      <p>Investigating spatial UI, head/hand tracking, 6-DOF interactions, and immersive hardware paradigms.</p>
+      <p><b>Primary Learning Focus:</b> Spatial computing, 6-DOF tracking, immersive environments, and virtual interaction paradigms.</p>
     </td>
     <td width="25%" align="center">
-      <h4>🕹️ Advanced Unity</h4>
-      <p>Mastering scriptable architecture, URP custom passes, memory optimization, and profiler analysis.</p>
+      <h4>🕹️ Advanced Unity Development</h4>
+      <p>Exploring engine internals, performance optimization, ScriptableObject architectures, and URP custom render features.</p>
     </td>
     <td width="25%" align="center">
-      <h4>🧩 3D Gameplay Systems</h4>
-      <p>Refining kinematics, physics-based movement, character controllers, and modular state machines.</p>
+      <h4>🧩 3D Gameplay Programming</h4>
+      <p>Refining custom character controllers, dynamic kinematics, physics interactions, and modular gameplay state machines.</p>
     </td>
     <td width="25%" align="center">
-      <h4>🌌 Immersive Experiences</h4>
-      <p>Studying environmental storytelling, player immersion mechanics, and interactive spatial audio.</p>
+      <h4>🌌 Immersive Game Experiences</h4>
+      <p>Studying environmental storytelling, atmosphere creation, interactive audio spatialization, and player immersion.</p>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="Animated Section Divider" width="100%" />
 </p>
 
-## 📊 Development Activity &amp; Statistics
+## 📊 GitHub Statistics
 
 <div align="center">
 
@@ -278,12 +295,12 @@ Status: "Active Personal R&D"
 </div>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="Animated Section Divider" width="100%" />
 </p>
 
 ## 🤝 Let's Connect
 
-Feel free to reach out to discuss game development, Unity architecture, XR experimentation, or collaborative opportunities:
+Feel free to connect to discuss game development, Unity projects, XR experimentation, or creative collaboration:
 
 <p align="left">
   <a href="https://github.com/sivaajishramr">
@@ -302,5 +319,6 @@ Feel free to reach out to discuss game development, Unity architecture, XR exper
 <br />
 
 <div align="center">
+  <!-- Animated Studio Footer Signoff -->
   <img src="./assets/footer.svg" alt="Footer Divider" width="100%" />
 </div>

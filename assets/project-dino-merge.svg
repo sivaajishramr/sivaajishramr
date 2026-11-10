@@ -1,28 +1,58 @@
 <svg width="100%" height="auto" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="p2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0c0e12"/>
-      <stop offset="60%" stop-color="#121715"/>
-      <stop offset="100%" stop-color="#090d0b"/>
+      <stop offset="0%" stop-color="#0a0d0b"/>
+      <stop offset="60%" stop-color="#0f1512"/>
+      <stop offset="100%" stop-color="#080c09"/>
     </linearGradient>
     <pattern id="p2-isogrid" width="28" height="16" patternUnits="userSpaceOnUse">
-      <path d="M 14 0 L 28 8 L 14 16 L 0 8 Z" fill="none" stroke="#17221b" stroke-width="0.5"/>
+      <path d="M 14 0 L 28 8 L 14 16 L 0 8 Z" fill="none" stroke="#152018" stroke-width="0.5"/>
     </pattern>
     <style>
       .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif; }
+
+      /* Flowing synthesis energy between cards */
+      @keyframes energy-stream {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -24; }
+      }
+      .energy-beam {
+        stroke-dasharray: 4 4;
+        animation: energy-stream 1.5s linear infinite;
+      }
+
+      /* Isometric arena sonar pulse */
+      @keyframes sonar-ring {
+        0% { transform: scale(0.6); opacity: 1; }
+        100% { transform: scale(1.6); opacity: 0; }
+      }
+      .sonar-wave {
+        animation: sonar-ring 3s ease-out infinite;
+        transform-origin: 120px 68px;
+      }
+
+      /* Star twinkle */
+      @keyframes star-pulse {
+        0%, 100% { opacity: 0.8; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.2); }
+      }
+      .star-glow {
+        animation: star-pulse 2.2s ease-in-out infinite;
+        transform-origin: 0px 1px;
+      }
     </style>
   </defs>
 
   <rect width="960" height="240" rx="10" fill="url(#p2-bg)"/>
-  <rect width="960" height="240" rx="10" fill="url(#p2-isogrid)" opacity="0.75"/>
-  <rect x="0.5" y="0.5" width="959" height="239" rx="9.5" stroke="#1f2c23" stroke-width="1"/>
+  <rect width="960" height="240" rx="10" fill="url(#p2-isogrid)" opacity="0.8"/>
+  <rect x="0.5" y="0.5" width="959" height="239" rx="9.5" stroke="#1c281f" stroke-width="1"/>
 
-  <!-- Left Accent Line -->
+  <!-- Left Green Accent Line -->
   <line x1="1" y1="20" x2="1" y2="220" stroke="#7ea172" stroke-width="3" stroke-linecap="round"/>
 
   <!-- Top Metadata Bar -->
-  <g class="mono" font-size="10" fill="#677584" letter-spacing="0.08em">
+  <g class="mono" font-size="10" fill="#627166" letter-spacing="0.08em">
     <text x="36" y="34" fill="#8da381" font-weight="700">PROJECT 02</text>
     <text x="120" y="34" fill="#2d3744">|</text>
     <text x="135" y="34">GENRE: MERGE &amp; REAL-TIME STRATEGY</text>
@@ -31,7 +61,7 @@
     <text x="600" y="34" fill="#2d3744">|</text>
     <text x="615" y="34" fill="#8da381">VIEW: ISOMETRIC ARENA</text>
   </g>
-  <line x1="36" y1="46" x2="924" y2="46" stroke="#19241c" stroke-width="1"/>
+  <line x1="36" y1="46" x2="924" y2="46" stroke="#17221a" stroke-width="1"/>
 
   <!-- Left Content -->
   <text x="36" y="86" class="sans" font-size="28" font-weight="800" fill="#f0f6fc" letter-spacing="-0.01em">
@@ -43,95 +73,92 @@
 
   <!-- Key Implemented Mechanics -->
   <g class="sans" font-size="12" fill="#7a8999">
-    <text x="36" y="146">
-      <tspan fill="#7ea172">▸</tspan> Card collection, merge-to-evolve system &amp; dynamic battle deck builder
-    </text>
-    <text x="36" y="168">
-      <tspan fill="#7ea172">▸</tspan> DNA Lab combination discovery &amp; DinoDex species cataloging architecture
-    </text>
-    <text x="36" y="190">
-      <tspan fill="#7ea172">▸</tspan> Isometric arena deployment, coordinate spawning &amp; auto-combat abilities
-    </text>
+    <text x="36" y="146"><tspan fill="#7ea172">▸</tspan> Card collection, merge-to-evolve system &amp; dynamic battle deck builder</text>
+    <text x="36" y="168"><tspan fill="#7ea172">▸</tspan> DNA Lab combination discovery &amp; DinoDex species cataloging architecture</text>
+    <text x="36" y="190"><tspan fill="#7ea172">▸</tspan> Isometric arena deployment, coordinate spawning &amp; auto-combat abilities</text>
   </g>
 
   <!-- Tags Pill Bar -->
   <g class="mono" font-size="9.5">
-    <rect x="36" y="206" width="70" height="20" rx="3" fill="#131a15" stroke="#233527" stroke-width="1"/>
+    <rect x="36" y="206" width="70" height="20" rx="3" fill="#121814" stroke="#203023" stroke-width="1"/>
     <text x="47" y="220" fill="#8da381">UNITY 3D</text>
 
-    <rect x="112" y="206" width="46" height="20" rx="3" fill="#131a15" stroke="#233527" stroke-width="1"/>
+    <rect x="112" y="206" width="46" height="20" rx="3" fill="#121814" stroke="#203023" stroke-width="1"/>
     <text x="123" y="220" fill="#9daab8">URP</text>
 
-    <rect x="164" y="206" width="126" height="20" rx="3" fill="#131a15" stroke="#233527" stroke-width="1"/>
+    <rect x="164" y="206" width="126" height="20" rx="3" fill="#121814" stroke="#203023" stroke-width="1"/>
     <text x="174" y="220" fill="#9daab8">MERGE EVOLUTION</text>
 
-    <rect x="296" y="206" width="108" height="20" rx="3" fill="#131a15" stroke="#233527" stroke-width="1"/>
+    <rect x="296" y="206" width="108" height="20" rx="3" fill="#121814" stroke="#203023" stroke-width="1"/>
     <text x="306" y="220" fill="#9daab8">CARD DECK RTS</text>
 
-    <rect x="410" y="206" width="78" height="20" rx="3" fill="#131a15" stroke="#233527" stroke-width="1"/>
+    <rect x="410" y="206" width="78" height="20" rx="3" fill="#121814" stroke="#203023" stroke-width="1"/>
     <text x="420" y="220" fill="#9daab8">DNA LAB</text>
 
-    <rect x="494" y="206" width="124" height="20" rx="3" fill="#131a15" stroke="#233527" stroke-width="1"/>
+    <rect x="494" y="206" width="124" height="20" rx="3" fill="#121814" stroke="#203023" stroke-width="1"/>
     <text x="504" y="220" fill="#9daab8">ISOMETRIC ARENA</text>
   </g>
 
   <!-- Right Side: Strategy & DNA Evolution Schematic -->
   <g transform="translate(685, 60)">
-    <rect x="0" y="0" width="240" height="156" rx="8" fill="#0c120e" stroke="#1d2d22" stroke-width="1"/>
+    <rect x="0" y="0" width="240" height="156" rx="8" fill="#0b100d" stroke="#1b281f" stroke-width="1"/>
 
     <!-- Isometric Grid Stage -->
     <g transform="translate(120, 68)">
+      <!-- Tactical Sonar Pulse -->
+      <polygon class="sonar-wave" points="0,-36 72,0 0,36 -72,0" fill="none" stroke="#7ea172" stroke-width="1"/>
+
       <!-- Ground Diamond (Isometric Grid) -->
-      <polygon points="0,-36 72,0 0,36 -72,0" fill="#111c14" stroke="#253a2a" stroke-width="1"/>
-      <polygon points="0,-18 36,0 0,18 -36,0" fill="none" stroke="#253a2a" stroke-width="0.75" stroke-dasharray="2,2"/>
+      <polygon points="0,-36 72,0 0,36 -72,0" fill="#101812" stroke="#223326" stroke-width="1"/>
+      <polygon points="0,-18 36,0 0,18 -36,0" fill="none" stroke="#223326" stroke-width="0.75" stroke-dasharray="2,2"/>
       
       <!-- Deployment Spawn Points -->
       <circle cx="-28" cy="-6" r="3.5" fill="#7ea172"/>
       <circle cx="0" cy="10" r="3.5" fill="#7ea172"/>
       <circle cx="28" cy="-6" r="3.5" fill="#c49c66"/>
 
-      <!-- Evolution Link Nodes -->
-      <line x1="-28" y1="-6" x2="0" y2="10" stroke="#7ea172" stroke-width="1.5" stroke-dasharray="2,2"/>
-      <line x1="28" y1="-6" x2="0" y2="10" stroke="#c49c66" stroke-width="1.5" stroke-dasharray="2,2"/>
+      <!-- Evolution Link Nodes with Dynamic Energy Flow -->
+      <line class="energy-beam" x1="-28" y1="-6" x2="0" y2="10" stroke="#7ea172" stroke-width="1.5"/>
+      <line class="energy-beam" x1="28" y1="-6" x2="0" y2="10" stroke="#c49c66" stroke-width="1.5"/>
 
-      <!-- Level Up / Merge Indicator -->
-      <circle cx="0" cy="-2" r="9" fill="none" stroke="#8da381" stroke-width="1"/>
-      <text x="0" y="1" class="mono" font-size="8" font-weight="700" fill="#f0f6fc" text-anchor="middle">★</text>
+      <!-- Level Up / Merge Star with Pulse -->
+      <circle cx="0" cy="-2" r="9" fill="#142017" stroke="#8da381" stroke-width="1"/>
+      <text class="star-glow mono" x="0" y="1" font-size="8" font-weight="700" fill="#f0f6fc" text-anchor="middle">★</text>
     </g>
 
-    <!-- Top Card Deck Slots (Mini Representation) -->
+    <!-- Top Card Deck Slots -->
     <g transform="translate(16, 14)">
       <!-- Card 1 -->
-      <rect x="0" y="0" width="28" height="38" rx="3" fill="#162219" stroke="#2a422f" stroke-width="1"/>
+      <rect x="0" y="0" width="28" height="38" rx="3" fill="#141d16" stroke="#253a2a" stroke-width="1"/>
       <text x="14" y="22" class="mono" font-size="8" fill="#8da381" text-anchor="middle">T-REX</text>
-      <text x="14" y="32" class="mono" font-size="6.5" fill="#6a7d6e" text-anchor="middle">LV.2</text>
+      <text x="14" y="32" class="mono" font-size="6.5" fill="#627566" text-anchor="middle">LV.2</text>
 
-      <!-- Merge Arrow -->
+      <!-- Merge Plus -->
       <text x="34" y="22" class="mono" font-size="10" fill="#7ea172">+</text>
 
       <!-- Card 2 -->
-      <rect x="44" y="0" width="28" height="38" rx="3" fill="#162219" stroke="#2a422f" stroke-width="1"/>
+      <rect x="44" y="0" width="28" height="38" rx="3" fill="#141d16" stroke="#253a2a" stroke-width="1"/>
       <text x="58" y="22" class="mono" font-size="8" fill="#8da381" text-anchor="middle">T-REX</text>
-      <text x="58" y="32" class="mono" font-size="6.5" fill="#6a7d6e" text-anchor="middle">LV.2</text>
+      <text x="58" y="32" class="mono" font-size="6.5" fill="#627566" text-anchor="middle">LV.2</text>
 
       <!-- Evolution Arrow -->
       <text x="77" y="22" class="mono" font-size="10" fill="#7ea172">→</text>
 
       <!-- Evolved Card -->
-      <rect x="88" y="0" width="30" height="38" rx="3" fill="#1d2c1f" stroke="#7ea172" stroke-width="1.2"/>
+      <rect x="88" y="0" width="30" height="38" rx="3" fill="#1b281c" stroke="#7ea172" stroke-width="1.2"/>
       <text x="103" y="20" class="mono" font-size="7.5" font-weight="700" fill="#f0f6fc" text-anchor="middle">APEX</text>
       <text x="103" y="31" class="mono" font-size="6.5" fill="#7ea172" text-anchor="middle">LV.3 ★</text>
     </g>
 
-    <!-- DinoDex System Status -->
-    <rect x="156" y="14" width="70" height="38" rx="3" fill="#131b15" stroke="#223325" stroke-width="1"/>
-    <text x="162" y="26" class="mono" font-size="7" fill="#6a7e6e">DINODEX</text>
+    <!-- DinoDex Status -->
+    <rect x="156" y="14" width="70" height="38" rx="3" fill="#111713" stroke="#1f2d22" stroke-width="1"/>
+    <text x="162" y="26" class="mono" font-size="7" fill="#627566">DINODEX</text>
     <text x="162" y="38" class="mono" font-size="11" font-weight="700" fill="#8da381">24 / 30</text>
-    <text x="162" y="46" class="mono" font-size="6" fill="#4d5c50">UNLOCKED</text>
+    <text x="162" y="46" class="mono" font-size="6" fill="#465448">UNLOCKED</text>
 
-    <!-- Bottom Arena Status -->
-    <rect x="12" y="122" width="216" height="24" rx="4" fill="#0f1611" stroke="#1d2d20" stroke-width="1"/>
-    <text x="20" y="137" class="mono" font-size="8.5" fill="#6d8372">COMBAT: AUTO-AI</text>
+    <!-- Arena Status -->
+    <rect x="12" y="122" width="216" height="24" rx="4" fill="#0d130f" stroke="#19251c" stroke-width="1"/>
+    <text x="20" y="137" class="mono" font-size="8.5" fill="#627867">COMBAT: AUTO-AI</text>
     <text x="130" y="137" class="mono" font-size="8.5" fill="#8da381">DNA LAB: READY</text>
   </g>
 </svg>

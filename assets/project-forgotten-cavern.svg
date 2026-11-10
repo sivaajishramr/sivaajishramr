@@ -1,33 +1,64 @@
 <svg width="100%" height="auto" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="p3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0c0f"/>
-      <stop offset="50%" stop-color="#0e1318"/>
-      <stop offset="100%" stop-color="#080a0d"/>
+      <stop offset="0%" stop-color="#080a0d"/>
+      <stop offset="50%" stop-color="#0d1115"/>
+      <stop offset="100%" stop-color="#07090b"/>
     </linearGradient>
     <radialGradient id="lantern-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7ea172" stop-opacity="0.35"/>
-      <stop offset="50%" stop-color="#4e6d45" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0a0c0f" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#8da381" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#4e6d45" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#080a0d" stop-opacity="0"/>
     </radialGradient>
     <pattern id="p3-dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.75" fill="#18222c"/>
+      <circle cx="2" cy="2" r="0.75" fill="#151d26"/>
     </pattern>
     <style>
       .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; }
       .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif; }
+
+      /* Organic breathing lantern glow */
+      @keyframes lantern-breathe {
+        0%, 100% { transform: scale(1); opacity: 0.75; }
+        50% { transform: scale(1.18); opacity: 1; }
+      }
+      .torch-glow {
+        animation: lantern-breathe 4s ease-in-out infinite;
+        transform-origin: 120px 74px;
+      }
+
+      /* Exploration ray sweep */
+      @keyframes ray-sweep {
+        0%, 100% { transform: rotate(-12deg); }
+        50% { transform: rotate(18deg); }
+      }
+      .sight-ray {
+        animation: ray-sweep 6s ease-in-out infinite;
+        transform-origin: 120px 92px;
+      }
+
+      /* Floating dust specks */
+      @keyframes dust-drift {
+        0% { transform: translateY(0) translateX(0); opacity: 0; }
+        20% { opacity: 0.8; }
+        80% { opacity: 0.8; }
+        100% { transform: translateY(-25px) translateX(6px); opacity: 0; }
+      }
+      .speck-1 { animation: dust-drift 4.5s ease-in-out infinite; }
+      .speck-2 { animation: dust-drift 5.5s ease-in-out 1.5s infinite; }
+      .speck-3 { animation: dust-drift 6.5s ease-in-out 3s infinite; }
     </style>
   </defs>
 
   <rect width="960" height="240" rx="10" fill="url(#p3-bg)"/>
-  <rect width="960" height="240" rx="10" fill="url(#p3-dots)" opacity="0.8"/>
-  <rect x="0.5" y="0.5" width="959" height="239" rx="9.5" stroke="#1c2633" stroke-width="1"/>
+  <rect width="960" height="240" rx="10" fill="url(#p3-dots)" opacity="0.85"/>
+  <rect x="0.5" y="0.5" width="959" height="239" rx="9.5" stroke="#1a232e" stroke-width="1"/>
 
-  <!-- Left Accent Line -->
+  <!-- Left Forest Muted Line -->
   <line x1="1" y1="20" x2="1" y2="220" stroke="#688b70" stroke-width="3" stroke-linecap="round"/>
 
   <!-- Top Metadata Bar -->
-  <g class="mono" font-size="10" fill="#677584" letter-spacing="0.08em">
+  <g class="mono" font-size="10" fill="#5f7080" letter-spacing="0.08em">
     <text x="36" y="34" fill="#8da381" font-weight="700">PROJECT 03</text>
     <text x="120" y="34" fill="#2d3744">|</text>
     <text x="135" y="34">GENRE: 3D STORY-DRIVEN ADVENTURE</text>
@@ -36,7 +67,7 @@
     <text x="730" y="34" fill="#2d3744">|</text>
     <text x="745" y="34" fill="#688b70">STATUS: IN ACTIVE R&amp;D</text>
   </g>
-  <line x1="36" y1="46" x2="924" y2="46" stroke="#18212c" stroke-width="1"/>
+  <line x1="36" y1="46" x2="924" y2="46" stroke="#161e27" stroke-width="1"/>
 
   <!-- Left Content -->
   <text x="36" y="86" class="sans" font-size="28" font-weight="800" fill="#f0f6fc" letter-spacing="-0.01em">
@@ -46,69 +77,71 @@
     Personal 3D Story-Driven Adventure &amp; Atmospheric World Design
   </text>
 
-  <!-- Key Implemented Mechanics / Focus -->
+  <!-- Key Implemented Mechanics -->
   <g class="sans" font-size="12" fill="#7a8999">
-    <text x="36" y="146">
-      <tspan fill="#7ea172">▸</tspan> Story-driven narrative framework &amp; atmospheric environmental pacing
-    </text>
-    <text x="36" y="168">
-      <tspan fill="#7ea172">▸</tspan> Subterranean cavern level design, ambient lighting &amp; volumetric mood
-    </text>
-    <text x="36" y="190">
-      <tspan fill="#7ea172">▸</tspan> Character design, third-person locomotion &amp; environmental storytelling
-    </text>
+    <text x="36" y="146"><tspan fill="#7ea172">▸</tspan> Story-driven narrative framework &amp; atmospheric environmental pacing</text>
+    <text x="36" y="168"><tspan fill="#7ea172">▸</tspan> Subterranean cavern level design, ambient lighting &amp; volumetric mood</text>
+    <text x="36" y="190"><tspan fill="#7ea172">▸</tspan> Character design, third-person locomotion &amp; environmental storytelling</text>
   </g>
 
   <!-- Tags Pill Bar -->
   <g class="mono" font-size="9.5">
-    <rect x="36" y="206" width="70" height="20" rx="3" fill="#121820" stroke="#1f2c38" stroke-width="1"/>
+    <rect x="36" y="206" width="70" height="20" rx="3" fill="#11161d" stroke="#1d2732" stroke-width="1"/>
     <text x="47" y="220" fill="#8da381">UNITY 3D</text>
 
-    <rect x="112" y="206" width="138" height="20" rx="3" fill="#121820" stroke="#1f2c38" stroke-width="1"/>
+    <rect x="112" y="206" width="138" height="20" rx="3" fill="#11161d" stroke="#1d2732" stroke-width="1"/>
     <text x="122" y="220" fill="#9daab8">ENVIRONMENT DESIGN</text>
 
-    <rect x="256" y="206" width="128" height="20" rx="3" fill="#121820" stroke="#1f2c38" stroke-width="1"/>
+    <rect x="256" y="206" width="128" height="20" rx="3" fill="#11161d" stroke="#1d2732" stroke-width="1"/>
     <text x="266" y="220" fill="#9daab8">ATMOSPHERIC 3D</text>
 
-    <rect x="390" y="206" width="112" height="20" rx="3" fill="#121820" stroke="#1f2c38" stroke-width="1"/>
+    <rect x="390" y="206" width="112" height="20" rx="3" fill="#11161d" stroke="#1d2732" stroke-width="1"/>
     <text x="400" y="220" fill="#9daab8">STORY-DRIVEN</text>
 
-    <rect x="508" y="206" width="124" height="20" rx="3" fill="#121820" stroke="#1f2c38" stroke-width="1"/>
+    <rect x="508" y="206" width="124" height="20" rx="3" fill="#11161d" stroke="#1d2732" stroke-width="1"/>
     <text x="518" y="220" fill="#9daab8">CHARACTER DESIGN</text>
   </g>
 
   <!-- Right Side: Cavern Topography & Waypoint Lantern Schematic -->
   <g transform="translate(685, 60)">
-    <rect x="0" y="0" width="240" height="156" rx="8" fill="#0b0e12" stroke="#1a232e" stroke-width="1"/>
+    <rect x="0" y="0" width="240" height="156" rx="8" fill="#090c0f" stroke="#17202a" stroke-width="1"/>
 
-    <!-- Ambient Lantern Glow Background -->
-    <circle cx="120" cy="74" r="68" fill="url(#lantern-glow)"/>
+    <!-- Dynamic Breathing Lantern Glow -->
+    <circle class="torch-glow" cx="120" cy="74" r="68" fill="url(#lantern-glow)"/>
 
-    <!-- Cavern Geological Contours (Wireframe / Topographic Slice) -->
-    <!-- Ceiling stalactites wireframe -->
-    <path d="M 16 16 L 45 42 L 72 20 L 98 52 L 130 18 L 165 48 L 195 24 L 224 16" fill="none" stroke="#23303d" stroke-width="1.2"/>
-    <path d="M 28 16 L 60 34 L 110 16 L 145 38 L 180 18 L 210 32" fill="none" stroke="#1a232c" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <!-- Cavern Geological Contours (Wireframe Slice) -->
+    <!-- Ceiling stalactites -->
+    <path d="M 16 16 L 45 42 L 72 20 L 98 52 L 130 18 L 165 48 L 195 24 L 224 16" fill="none" stroke="#202a35" stroke-width="1.2"/>
+    <path d="M 28 16 L 60 34 L 110 16 L 145 38 L 180 18 L 210 32" fill="none" stroke="#182028" stroke-width="0.8" stroke-dasharray="2,2"/>
 
     <!-- Ground / Floor contours -->
-    <path d="M 16 138 L 50 120 L 88 126 L 120 108 L 155 124 L 190 114 L 224 138" fill="none" stroke="#23303d" stroke-width="1.2"/>
-    <path d="M 16 144 L 64 132 L 130 120 L 178 130 L 224 144" fill="none" stroke="#1a232c" stroke-width="0.8" stroke-dasharray="2,2"/>
+    <path d="M 16 138 L 50 120 L 88 126 L 120 108 L 155 124 L 190 114 L 224 138" fill="none" stroke="#202a35" stroke-width="1.2"/>
+    <path d="M 16 144 L 64 132 L 130 120 L 178 130 L 224 144" fill="none" stroke="#182028" stroke-width="0.8" stroke-dasharray="2,2"/>
 
-    <!-- Waypoint / Player Beacon at Center (120, 108) -->
+    <!-- Floating Dust Particles in Beam -->
+    <circle class="speck-1" cx="135" cy="80" r="1.5" fill="#c8d7b9"/>
+    <circle class="speck-2" cx="110" cy="70" r="1" fill="#c8d7b9"/>
+    <circle class="speck-3" cx="150" cy="85" r="1.2" fill="#c8d7b9"/>
+
+    <!-- Sweeping Line of Sight / Lantern Beam -->
+    <g class="sight-ray">
+      <line x1="120" y1="92" x2="175" y2="65" stroke="#7ea172" stroke-width="1.2" stroke-dasharray="3,2"/>
+      <circle cx="175" cy="65" r="2.5" fill="#8da381"/>
+    </g>
+
+    <!-- Waypoint / Player Beacon at Center -->
     <circle cx="120" cy="92" r="3" fill="#f0f6fc"/>
     <circle cx="120" cy="92" r="7" fill="none" stroke="#7ea172" stroke-width="1"/>
     <circle cx="120" cy="92" r="14" fill="none" stroke="#7ea172" stroke-width="0.75" stroke-dasharray="3,3" stroke-opacity="0.6"/>
-    <!-- Exploration line of sight -->
-    <line x1="120" y1="92" x2="165" y2="70" stroke="#7ea172" stroke-width="1" stroke-dasharray="2,2"/>
-    <circle cx="165" cy="70" r="2" fill="#8da381"/>
 
-    <!-- Atmosphere / Fog Density Readout -->
-    <rect x="14" y="24" width="82" height="26" rx="3" fill="#10151c" stroke="#1b2532" stroke-width="1"/>
-    <text x="20" y="35" class="mono" font-size="7" fill="#5a6c7e">ATMOSPHERE</text>
+    <!-- Volumetric Readout -->
+    <rect x="14" y="24" width="82" height="26" rx="3" fill="#0e1319" stroke="#18212c" stroke-width="1"/>
+    <text x="20" y="35" class="mono" font-size="7" fill="#586878">ATMOSPHERE</text>
     <text x="20" y="45" class="mono" font-size="8" font-weight="600" fill="#8da381">VOLUMETRIC FOG</text>
 
     <!-- Bottom Readout Bar -->
-    <rect x="12" y="122" width="216" height="24" rx="4" fill="#0e1319" stroke="#19232e" stroke-width="1"/>
-    <text x="20" y="137" class="mono" font-size="8.5" fill="#677b8f">NARRATIVE BEAT: 01</text>
+    <rect x="12" y="122" width="216" height="24" rx="4" fill="#0c1014" stroke="#161e27" stroke-width="1"/>
+    <text x="20" y="137" class="mono" font-size="8.5" fill="#627485">NARRATIVE BEAT: 01</text>
     <text x="134" y="137" class="mono" font-size="8.5" fill="#8da381">LIGHT: DYNAMIC</text>
   </g>
 </svg>
