@@ -1,0 +1,19 @@
+<svg width="100%" height="auto" viewBox="0 0 960 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; }
+    </style>
+  </defs>
+
+  <!-- Divider line -->
+  <line x1="0" y1="1" x2="960" y2="1" stroke="#1c232c" stroke-width="1"/>
+  
+  <g class="mono" font-size="10" fill="#526070" letter-spacing="0.1em">
+    <text x="36" y="38">AJISH // GAME DEVELOPER PORTFOLIO</text>
+    <text x="480" y="38" text-anchor="middle" fill="#7ea172">UNITY · C# · EXPLORING XR</text>
+    <text x="924" y="38" text-anchor="end">BUILD VERSION 2.0</text>
+  </g>
+
+  <circle cx="36" cy="52" r="2" fill="#7ea172"/>
+  <text x="46" y="55" class="mono" font-size="8.5" fill="#677869">READY FOR NEW CHALLENGES</text>
+</svg>

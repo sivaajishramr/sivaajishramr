@@ -1,0 +1,81 @@
+<svg width="100%" height="auto" viewBox="0 0 960 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="xr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e12"/>
+      <stop offset="60%" stop-color="#111714"/>
+      <stop offset="100%" stop-color="#090d0b"/>
+    </linearGradient>
+    <pattern id="xr-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#16221a" stroke-width="0.5"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="960" height="170" rx="10" fill="url(#xr-bg)"/>
+  <rect width="960" height="170" rx="10" fill="url(#xr-grid)" opacity="0.8"/>
+  <rect x="0.5" y="0.5" width="959" height="169" rx="9.5" stroke="#223626" stroke-width="1"/>
+
+  <!-- Left Accent -->
+  <line x1="1" y1="16" x2="1" y2="154" stroke="#7ea172" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Top Label -->
+  <g class="mono" font-size="10" fill="#6a8270" letter-spacing="0.1em">
+    <rect x="36" y="22" width="240" height="20" rx="3" fill="#131e16" stroke="#263d2b" stroke-width="1"/>
+    <circle cx="48" cy="32" r="3" fill="#7ea172"/>
+    <text x="58" y="36" font-weight="700" fill="#8da381">CURRENT FOCUS: EXTENDED REALITY (XR)</text>
+  </g>
+
+  <!-- Left Content -->
+  <text x="36" y="70" class="sans" font-size="20" font-weight="700" fill="#f0f6fc">
+    Exploring the Frontier of Spatial Computing &amp; Immersive Worlds
+  </text>
+  <text x="36" y="94" class="sans" font-size="13" fill="#8d9ea0">
+    Expanding core Unity foundations into 6-DOF interaction, spatial UI, and interactive virtual environments.
+  </text>
+
+  <!-- Four Core Pillars -->
+  <g class="mono" font-size="10">
+    <!-- Pillar 1 -->
+    <rect x="36" y="116" width="168" height="28" rx="4" fill="#131b15" stroke="#253828" stroke-width="1"/>
+    <circle cx="50" cy="130" r="3" fill="#7ea172"/>
+    <text x="60" y="134" fill="#cbd5e1" font-weight="600">EXTENDED REALITY (XR)</text>
+
+    <!-- Pillar 2 -->
+    <rect x="214" y="116" width="186" height="28" rx="4" fill="#12181d" stroke="#202c38" stroke-width="1"/>
+    <circle cx="228" cy="130" r="3" fill="#586e84"/>
+    <text x="238" y="134" fill="#cbd5e1" font-weight="600">ADVANCED UNITY ENGINE</text>
+
+    <!-- Pillar 3 -->
+    <rect x="410" y="116" width="194" height="28" rx="4" fill="#12181d" stroke="#202c38" stroke-width="1"/>
+    <circle cx="424" cy="130" r="3" fill="#586e84"/>
+    <text x="434" y="134" fill="#cbd5e1" font-weight="600">3D GAMEPLAY SYSTEMS</text>
+
+    <!-- Pillar 4 -->
+    <rect x="614" y="116" width="198" height="28" rx="4" fill="#12181d" stroke="#202c38" stroke-width="1"/>
+    <circle cx="628" cy="130" r="3" fill="#586e84"/>
+    <text x="638" y="134" fill="#cbd5e1" font-weight="600">IMMERSIVE EXPERIENCES</text>
+  </g>
+
+  <!-- Right Side Visual: Spatial Tracking Schematic -->
+  <g transform="translate(835, 30)">
+    <!-- Spatial Tracking Dome -->
+    <ellipse cx="50" cy="50" rx="44" ry="24" fill="none" stroke="#223526" stroke-width="1" stroke-dasharray="3,3"/>
+    <circle cx="50" cy="50" r="4" fill="#7ea172"/>
+    
+    <!-- Raycast Vectors -->
+    <line x1="50" y1="50" x2="20" y2="25" stroke="#7ea172" stroke-width="1" stroke-opacity="0.7"/>
+    <circle cx="20" cy="25" r="2" fill="#8da381"/>
+
+    <line x1="50" y1="50" x2="80" y2="25" stroke="#7ea172" stroke-width="1" stroke-opacity="0.7"/>
+    <circle cx="80" cy="25" r="2" fill="#8da381"/>
+
+    <line x1="50" y1="50" x2="50" y2="85" stroke="#7ea172" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="2,2"/>
+    <circle cx="50" cy="85" r="2" fill="#8da381"/>
+
+    <!-- 6-DOF Label -->
+    <text x="50" y="105" class="mono" font-size="8.5" fill="#6d8372" text-anchor="middle">6-DOF TRACKING</text>
+  </g>
+</svg>

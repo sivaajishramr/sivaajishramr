@@ -1,0 +1,145 @@
+<svg width="100%" height="auto" viewBox="0 0 960 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0e12"/>
+      <stop offset="50%" stop-color="#0f1318"/>
+      <stop offset="100%" stop-color="#0a0c0f"/>
+    </linearGradient>
+    <linearGradient id="olive-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7ea172"/>
+      <stop offset="100%" stop-color="#94b087"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7ea172" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#303b47" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="engine-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#161b22" stroke-width="0.75"/>
+      <circle cx="30" cy="0" r="1" fill="#1f2732"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif; }
+      @keyframes pulse-dot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.85); }
+      }
+      .beacon {
+        animation: pulse-dot 3s ease-in-out infinite;
+        transform-origin: 875px 40px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="300" rx="12" fill="url(#bg-grad)"/>
+  <rect width="960" height="300" rx="12" fill="url(#engine-grid)" opacity="0.85"/>
+  <rect x="0.5" y="0.5" width="959" height="299" rx="11.5" stroke="#212833" stroke-width="1"/>
+
+  <!-- Top Engine Viewport Bar -->
+  <line x1="24" y1="58" x2="936" y2="58" stroke="#1c232d" stroke-width="1"/>
+  <line x1="24" y1="58" x2="220" y2="58" stroke="#7ea172" stroke-width="1.5" stroke-opacity="0.7"/>
+
+  <!-- Viewport HUD Indicators -->
+  <g class="mono" font-size="10" fill="#586574" letter-spacing="0.08em">
+    <text x="32" y="42">ENGINE: UNITY 3D</text>
+    <text x="175" y="42" fill="#2d3744">|</text>
+    <text x="195" y="42">RENDER: URP</text>
+    <text x="295" y="42" fill="#2d3744">|</text>
+    <text x="315" y="42">FOV: 60°</text>
+    <text x="390" y="42" fill="#2d3744">|</text>
+    <text x="410" y="42">COORD: [X: 0.00  Y: 1.00  Z: 0.00]</text>
+  </g>
+
+  <!-- Status Indicator (Top Right) -->
+  <g class="sans">
+    <rect x="745" y="28" width="185" height="24" rx="12" fill="#121814" stroke="#253526" stroke-width="1"/>
+    <circle class="beacon" cx="760" cy="40" r="4" fill="#7ea172"/>
+    <text x="772" y="44" class="mono" font-size="9.5" font-weight="600" fill="#99b88e" letter-spacing="0.06em">STATUS: CREATING WORLDS</text>
+  </g>
+
+  <!-- Main Hero Content -->
+  <!-- Discipline Badge -->
+  <g class="mono">
+    <rect x="36" y="86" width="180" height="22" rx="4" fill="#141c15" stroke="#283b2a" stroke-width="1"/>
+    <text x="46" y="101" font-size="10.5" font-weight="600" fill="#8da381" letter-spacing="0.1em">ASPIRING GAME DEVELOPER</text>
+  </g>
+
+  <!-- Name -->
+  <text x="34" y="156" class="sans" font-size="44" font-weight="800" fill="#f0f6fc" letter-spacing="-0.02em">AJISH</text>
+
+  <!-- Professional Subtitle -->
+  <text x="36" y="188" class="sans" font-size="16" font-weight="600" fill="#cbd5e1" letter-spacing="0.01em">
+    Unity &amp; C# Gameplay Systems <tspan fill="#7ea172">·</tspan> Interactive 3D <tspan fill="#7ea172">·</tspan> Exploring XR
+  </text>
+
+  <!-- Editorial Subtext -->
+  <text x="36" y="215" class="sans" font-size="13" fill="#7d8b99" font-weight="400">
+    Focusing on gameplay mechanics, character systems, and immersive virtual environments.
+  </text>
+
+  <!-- Technical Pill Chips (Bottom Left) -->
+  <g class="mono" font-size="10.5">
+    <rect x="36" y="244" width="76" height="24" rx="4" fill="#14181e" stroke="#252d38" stroke-width="1"/>
+    <text x="50" y="260" fill="#9ba8b8">UNITY</text>
+
+    <rect x="120" y="244" width="56" height="24" rx="4" fill="#14181e" stroke="#252d38" stroke-width="1"/>
+    <text x="136" y="260" fill="#9ba8b8">C#</text>
+
+    <rect x="184" y="244" width="128" height="24" rx="4" fill="#14181e" stroke="#252d38" stroke-width="1"/>
+    <text x="198" y="260" fill="#9ba8b8">3D GAMEPLAY</text>
+
+    <rect x="320" y="244" width="126" height="24" rx="4" fill="#151e17" stroke="#293c2c" stroke-width="1"/>
+    <circle cx="334" cy="256" r="3" fill="#7ea172"/>
+    <text x="344" y="260" fill="#8da381" font-weight="600">EXPLORING XR</text>
+  </g>
+
+  <!-- Right Visual: 3D Engine Viewport Gizmo & Wireframe Representation -->
+  <g transform="translate(680, 80)">
+    <!-- Viewport Frame -->
+    <rect x="0" y="0" width="245" height="190" rx="8" fill="#0b0e12" fill-opacity="0.75" stroke="#1f2631" stroke-width="1"/>
+    
+    <!-- Coordinate Origin Crosshair -->
+    <line x1="20" y1="95" x2="225" y2="95" stroke="#161c24" stroke-width="1" stroke-dasharray="2,3"/>
+    <line x1="122" y1="15" x2="122" y2="175" stroke="#161c24" stroke-width="1" stroke-dasharray="2,3"/>
+
+    <!-- Wireframe Isometric Cube / Spatial Bounds -->
+    <!-- Back Edges -->
+    <path d="M 122 42 L 182 66 L 182 130 L 122 154 L 62 130 L 62 66 Z" fill="none" stroke="#222b36" stroke-width="1"/>
+    <!-- Internal Axes -->
+    <line x1="122" y1="42" x2="122" y2="106" stroke="#2b3644" stroke-width="1"/>
+    <line x1="62" y1="66" x2="122" y2="106" stroke="#2b3644" stroke-width="1"/>
+    <line x1="182" y1="66" x2="122" y2="106" stroke="#2b3644" stroke-width="1"/>
+    <line x1="122" y1="106" x2="122" y2="154" stroke="#2b3644" stroke-width="1"/>
+
+    <!-- 3D Transform Gizmo at Center (122, 106) -->
+    <!-- Z axis (Blue / Slate) -->
+    <line x1="122" y1="106" x2="80" y2="126" stroke="#5e81ac" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="76,128 85,123 83,131" fill="#5e81ac"/>
+    <text x="68" y="138" class="mono" font-size="10" font-weight="700" fill="#5e81ac">Z</text>
+
+    <!-- X axis (Red / Salmon) -->
+    <line x1="122" y1="106" x2="168" y2="126" stroke="#bf616a" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="172,128 165,131 163,123" fill="#bf616a"/>
+    <text x="178" y="138" class="mono" font-size="10" font-weight="700" fill="#bf616a">X</text>
+
+    <!-- Y axis (Muted Sage Green - Engine Up) -->
+    <line x1="122" y1="106" x2="122" y2="52" stroke="#7ea172" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="122,46 118,56 126,56" fill="#7ea172"/>
+    <text x="126" y="44" class="mono" font-size="10" font-weight="700" fill="#7ea172">Y (UP)</text>
+
+    <!-- Center Pivot Node -->
+    <circle cx="122" cy="106" r="3.5" fill="#f0f6fc"/>
+    <circle cx="122" cy="106" r="6" fill="none" stroke="#7ea172" stroke-width="1" stroke-opacity="0.8"/>
+
+    <!-- Frustum Ray / Spatial Bounds Projection -->
+    <path d="M 30 160 L 62 130" stroke="#7ea172" stroke-width="1" stroke-dasharray="2,3" stroke-opacity="0.4"/>
+    <path d="M 215 160 L 182 130" stroke="#7ea172" stroke-width="1" stroke-dasharray="2,3" stroke-opacity="0.4"/>
+
+    <!-- Bottom Readout -->
+    <rect x="12" y="160" width="221" height="20" rx="4" fill="#0e1216" stroke="#1a212a" stroke-width="1"/>
+    <text x="20" y="174" class="mono" font-size="9" fill="#526070">SYSTEM: ACTIVE</text>
+    <text x="135" y="174" class="mono" font-size="9" fill="#7ea172">60.0 FPS · 16.6ms</text>
+  </g>
+</svg>

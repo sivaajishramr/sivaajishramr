@@ -1,144 +1,306 @@
-<![CDATA[<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&repeat=true&random=false&width=600&height=70&lines=%F0%9F%8E%AE+Siva+Ajish+Ram" alt="Typing SVG" />
-  </a>
-</p>
+<!-- ============================================================================== -->
+<!-- AJISH | ASPIRING GAME DEVELOPER — GITHUB PROFILE PORTFOLIO                     -->
+<!-- Theme: Minimalist Independent Game Studio / Viewport Editorial                 -->
+<!-- Palette: Deep Charcoal (#0d1117), Muted Olive (#7ea172/#8da381), Slate, White -->
+<!-- ============================================================================== -->
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=16&duration=4000&pause=2000&color=7C3AED&center=true&vCenter=true&repeat=true&random=false&width=500&height=25&lines=Game+Dev+%7C+IoT+Builder+%7C+3D+Artist;2nd+Year+CSE+%40+SRM+University" alt="Subtitle" />
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
+  <!-- Bespoke 3D Viewport Hero Banner -->
+  <img src="./assets/hero-banner.svg" alt="Ajish - Game Developer Hero Banner" width="100%" />
+
+  <br />
+
+  <!-- Animated Typing Headline -->
   <a href="https://github.com/sivaajishramr">
-    <img src="https://komarev.com/ghpvc/?username=sivaajishramr&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1200&color=8DA381&center=true&vCenter=true&repeat=true&width=620&height=42&lines=Game+Developer;Unity+%26+C%23+Programmer;XR+%26+Interactive+3D+Explorer;Gameplay+Mechanics+Builder" alt="Typing Animation: Game Developer, Unity & C# Specialist, XR Explorer" />
   </a>
-  <a href="https://github.com/sivaajishramr?tab=followers">
-    <img src="https://img.shields.io/github/followers/sivaajishramr?label=Followers&style=for-the-badge&color=a855f7&labelColor=1a1b27" alt="Followers"/>
-  </a>
-</p>
 
----
+  <!-- Quick Telemetry & Status Badges -->
+  <p align="center">
+    <a href="https://github.com/sivaajishramr">
+      <img src="https://img.shields.io/badge/ENGINE-UNITY_3D-12161c?style=flat-square&logo=unity&logoColor=8da381" alt="Unity 3D" />
+    </a>
+    <a href="https://github.com/sivaajishramr">
+      <img src="https://img.shields.io/badge/CORE-C%23-12161c?style=flat-square&logo=csharp&logoColor=8da381" alt="C#" />
+    </a>
+    <a href="https://github.com/sivaajishramr">
+      <img src="https://img.shields.io/badge/EXPLORING-EXTENDED_REALITY_(XR)-162319?style=flat-square&logoColor=8da381" alt="Exploring XR" />
+    </a>
+    <a href="https://komarev.com/ghpvc/?username=sivaajishramr&label=PROFILE%20VIEWS&color=253828&style=flat-square">
+      <img src="https://komarev.com/ghpvc/?username=sivaajishramr&label=PROFILE%20VIEWS&color=253828&style=flat-square" alt="Profile Views" />
+    </a>
+  </p>
 
-## 🧑‍💻 About Me
-
-- 🎓 **2nd Year B.Tech CSE** @ SRM University, India
-- 🎮 Building games with **Unity & C#**
-- 🎨 Creating 3D worlds in **Blender**
-- 🤖 IoT projects with **ESP32 & Arduino**
-- 🌐 Full-Stack Web Dev with **React & Flask**
-- ⚡ Fun fact: I built a real-time AI speech translator 
-
----
-
-## 🛠️ Tech Stack
-
-**Game Dev & 3D:**
-
-<p>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
-  <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
-</p>
-
-**Web & Backend:**
-
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"/>
-</p>
-
-**IoT & Hardware:**
-
-<p>
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
-  <img src="https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
-  <img src="https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white" alt="Bluetooth"/>
-</p>
-
-**Tools:**
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
-</p>
-
----
-
-## 🏆 Featured Projects
-
-<a href="https://github.com/sivaajishramr/ai-speech-translator-">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sivaajishramr&repo=ai-speech-translator-&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=7c3aed&text_color=c9d1d9" alt="AI Speech Translator"/>
-</a>
-
-<a href="https://github.com/sivaajishramr/portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sivaajishramr&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=7c3aed&text_color=c9d1d9" alt="Portfolio"/>
-</a>
-
-### 🎯 AI Speech Translator — Flagship Project
-
-> 🗣️ A portable, real-time AI speech translator built with ESP32 + Deep Learning.
-> Speak in any language → Hear the translation through Bluetooth earbuds!
-> **95–97% cheaper** than commercial devices (~₹440 vs ₹16,700)
-
-<p>
-  <a href="https://huggingface.co/spaces/Ajish07/ai-speech-translator">
-    <img src="https://img.shields.io/badge/🚀_Live_Demo-HuggingFace-yellow?style=for-the-badge" alt="Live Demo"/>
-  </a>
-  <a href="https://github.com/sivaajishramr/ai-speech-translator-">
-    <img src="https://img.shields.io/badge/📂_Source_Code-GitHub-purple?style=for-the-badge" alt="Source"/>
-  </a>
-</p>
-
----
-
-## 📊 GitHub Stats
+</div>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=sivaajishramr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=7c3aed&text_color=c9d1d9&ring_color=a855f7" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=sivaajishramr&theme=tokyonight&hide_border=true&background=0d1117&stroke=a855f7&ring=a855f7&fire=7c3aed&currStreakLabel=a855f7&sideLabels=a855f7&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" alt="GitHub Streak" />
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</p>
+
+## 🧭 Identity & Overview
+
+> **"I'm a Computer Science Engineering student with a strong interest in Game Development, focused on creating interactive 3D experiences, gameplay systems, and immersive environments.**
+> 
+> **I enjoy bringing ideas to life through game engines, experimenting with gameplay mechanics, and understanding how games work behind the scenes.**
+> 
+> **Currently, I'm expanding my knowledge of Extended Reality (XR) and exploring the possibilities of immersive technologies."**
+
+<br />
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎮 Core Focus</h3>
+      <ul>
+        <li><b>Primary Focus:</b> Game Development with Unity &amp; C#.</li>
+        <li><b>Gameplay Engineering:</b> Mechanics, player movement, and camera systems.</li>
+        <li><b>Interactive Worlds:</b> 3D environments, animation controllers, and game UI.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 Trajectory &amp; Teamwork</h3>
+      <ul>
+        <li><b>Current Learning Frontier:</b> Extended Reality (XR) &amp; immersive 3D computing.</li>
+        <li><b>Collaboration:</b> Proven experience contributing to team-based game development.</li>
+        <li><b>Design Philosophy:</b> Passionate about turning creative ideas into playable, polished experiences.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</p>
+
+## 🛠️ Technical Skills &amp; Tools
+
+<br />
+
+#### 🎮 Game Development &amp; Systems Programming
+```
+┌───────────────────────────────┬────────────────────────────────────────────────────────┐
+│ DOMAIN                        │ TECHNOLOGIES & CAPABILITIES                            │
+├───────────────────────────────┼────────────────────────────────────────────────────────┤
+│ Game Engine                   │ Unity 3D (Universal Render Pipeline / URP)             │
+│ Programming Language          │ C# (Gameplay scripting, object-oriented systems)       │
+│ Spatial Systems               │ 3D Game Development & World Coordinates                │
+│ Player & Camera Systems       │ First/Third-person Locomotion, Kinematics, Virtual Cams │
+│ Animation                     │ Animator Controllers, State Machines, Blend Trees      │
+│ Gameplay Architecture         │ Interactive Mechanics, HUD/UI Bindings, Game Loops     │
+└───────────────────────────────┴────────────────────────────────────────────────────────┘
+```
+
+<p>
+  <img src="https://img.shields.io/badge/Unity-12161c?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
+  <img src="https://img.shields.io/badge/C%23-12161c?style=for-the-badge&logo=csharp&logoColor=8da381" alt="C#" />
+  <img src="https://img.shields.io/badge/3D_Development-12161c?style=for-the-badge&logoColor=cbd5e1" alt="3D Game Development" />
+  <img src="https://img.shields.io/badge/Gameplay_Mechanics-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Gameplay Mechanics" />
+  <img src="https://img.shields.io/badge/Animation_Controllers-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Animation Controllers" />
+  <img src="https://img.shields.io/badge/Movement_&_Camera-12161c?style=for-the-badge&logoColor=cbd5e1" alt="Movement & Camera" />
+</p>
+
+#### 🌐 Currently Exploring
+<p>
+  <img src="https://img.shields.io/badge/Extended_Reality_(XR)-18241b?style=for-the-badge&logoColor=8da381" alt="Extended Reality XR" />
+  <img src="https://img.shields.io/badge/Immersive_Interactive_Experiences-18241b?style=for-the-badge&logoColor=8da381" alt="Immersive Interactive Experiences" />
+  <img src="https://img.shields.io/badge/Spatial_Interactions-18241b?style=for-the-badge&logoColor=8da381" alt="Spatial Interactions" />
+</p>
+
+#### ⚙️ Development Tools &amp; Environment
+<p>
+  <img src="https://img.shields.io/badge/Git-12161c?style=for-the-badge&logo=git&logoColor=f05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-12161c?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Visual_Studio-12161c?style=for-the-badge&logo=visualstudio&logoColor=c586c0" alt="Visual Studio" />
+  <img src="https://img.shields.io/badge/VS_Code-12161c?style=for-the-badge&logo=visualstudiocode&logoColor=007acc" alt="VS Code" />
 </p>
 
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sivaajishramr&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sivaajishramr&bg_color=0d1117&color=a855f7&line=7c3aed&point=a855f7&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Graph" width="95%" alt="Activity Graph"/>
+## 🕹️ Featured Game Development Projects
+
+### 01 · Meter Chalu | Rural Driving Game
+
+<img src="./assets/project-meter-chalu.svg" alt="Project 01: Meter Chalu Rural Driving Game" width="100%" />
+
+> **A rural-themed mobile driving game involving driving gameplay, passenger interactions, fares, rewards, and bargaining.**
+
+* **Vehicle Dynamics & Controls:** Implemented core mobile driving mechanics, including throttle acceleration, responsive braking, steering, and tactile horn interactions.
+* **Passenger & Economy Loop:** Engineered passenger pickup systems, ride completion validation, and dynamic gameplay concepts centered around passenger fares, rewards, and interactive bargaining.
+* **Missions & Persistence:** Designed mission progression flow, player progress saving, and an intuitive mobile gameplay HUD displaying speed, passenger status, and fares.
+* **Team Contribution:** Collaborated within a development team to align gameplay feel, vehicle handling, and UI responsiveness.
+
+```yaml
+Title: "Meter Chalu"
+Genre: "Rural Driving Simulator & Economy"
+Platform: "Mobile / Android"
+Tech Stack: ["Unity 3D", "C#", "Mobile Touch Controls", "Vehicle Physics", "Economy & HUD"]
+Status: "Team Contribution / Playable Build"
+```
+
+<p>
+  <a href="#featured-game-development-projects">
+    <img src="https://img.shields.io/badge/Repository-Coming_Soon-18221b?style=flat-square&logo=github&logoColor=8da381" alt="Repository Link" />
+  </a>
+  <a href="#featured-game-development-projects">
+    <img src="https://img.shields.io/badge/Gameplay_Demo-Documentation-141920?style=flat-square&logoColor=a0acba" alt="Demo Link" />
+  </a>
 </p>
 
 ---
 
-## 🤝 Connect With Me
+### 02 · Dino Merge Battle | Merge & Strategy Game
+
+<img src="./assets/project-dino-merge.svg" alt="Project 02: Dino Merge Battle" width="100%" />
+
+> **A dinosaur-themed game combining merge mechanics, card collection, evolution, and real-time strategy battles.**
+
+* **Card Collection & Merge Evolution:** Designed systems to collect dinosaur cards and merge identical units to evolve combat dinosaurs into higher-tier apex species.
+* **Tactical Deck Building:** Created battle deck configurations where players curate specialized dinosaur teams based on stats and synergies.
+* **The DNA Lab & DinoDex:** Developed the DNA Lab mechanic for discovering new hybrid dinosaur combinations alongside a comprehensive DinoDex catalog to track species discoveries.
+* **Isometric Deployment & Real-Time Combat:** Built strategic deployment grids allowing players to select spawn coordinates before triggering automated combat loops powered by unique dinosaur abilities.
+* **Visual Direction:** Rendered in Unity 3D with the Universal Render Pipeline (URP), pairing stylized 3D dinosaur characters with clean isometric battle arena environments.
+
+```yaml
+Title: "Dino Merge Battle"
+Genre: "Merge Evolution & Real-Time Strategy"
+Perspective: "Isometric 3D Arena"
+Tech Stack: ["Unity 3D", "Universal Render Pipeline (URP)", "C#", "Merge Systems", "Deck Building"]
+Architecture: ["DNA Lab Combinations", "DinoDex Tracking", "Autonomous Combat AI"]
+```
 
 <p>
-  <a href="https://ajishportfolio07.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-a855f7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  <a href="#featured-game-development-projects">
+    <img src="https://img.shields.io/badge/Repository-Coming_Soon-18221b?style=flat-square&logo=github&logoColor=8da381" alt="Repository Link" />
   </a>
+  <a href="#featured-game-development-projects">
+    <img src="https://img.shields.io/badge/Design_Document-Available_on_Request-141920?style=flat-square&logoColor=a0acba" alt="Design Document" />
+  </a>
+</p>
+
+---
+
+### 03 · Forgotten Cavern | Personal Game Project
+
+<img src="./assets/project-forgotten-cavern.svg" alt="Project 03: Forgotten Cavern" width="100%" />
+
+> **A personal 3D game project exploring a story-driven gaming experience through environmental atmosphere and narrative design.**
+
+* **Story-Driven Concept:** Crafting an intimate, atmospheric 3D adventure focused on exploration, environmental discovery, and narrative pacing.
+* **Atmospheric Environment Design:** Sculpting subterranean caverns with stylized low-poly formations, volumetric fog, dynamic lighting, and moody acoustic ambiance.
+* **Character & Interaction Exploration:** Developing third-person character locomotion, exploration mechanics, and quiet storytelling embedded directly into the terrain and ruins.
+
+```yaml
+Title: "Forgotten Cavern"
+Genre: "Story-Driven 3D Atmospheric Adventure"
+Platform: "PC / 3D Engine"
+Tech Stack: ["Unity 3D", "C#", "Level & Environment Design", "Atmospheric Lighting", "Character Systems"]
+Status: "Active Personal R&D"
+```
+
+<p>
+  <a href="#featured-game-development-projects">
+    <img src="https://img.shields.io/badge/Repository-In_Active_Development-18221b?style=flat-square&logo=github&logoColor=8da381" alt="Repository Link" />
+  </a>
+  <a href="#featured-game-development-projects">
+    <img src="https://img.shields.io/badge/Devlog-In_Progress-141920?style=flat-square&logoColor=a0acba" alt="Devlog Link" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</p>
+
+## 🔬 Currently Learning &amp; Research
+
+<img src="./assets/xr-focus.svg" alt="Currently Learning: Extended Reality XR" width="100%" />
+
+<br />
+
+<table>
+  <tr>
+    <td width="25%" align="center">
+      <h4>🥽 Extended Reality (XR)</h4>
+      <p>Investigating spatial UI, head/hand tracking, 6-DOF interactions, and immersive hardware paradigms.</p>
+    </td>
+    <td width="25%" align="center">
+      <h4>🕹️ Advanced Unity</h4>
+      <p>Mastering scriptable architecture, URP custom passes, memory optimization, and profiler analysis.</p>
+    </td>
+    <td width="25%" align="center">
+      <h4>🧩 3D Gameplay Systems</h4>
+      <p>Refining kinematics, physics-based movement, character controllers, and modular state machines.</p>
+    </td>
+    <td width="25%" align="center">
+      <h4>🌌 Immersive Experiences</h4>
+      <p>Studying environmental storytelling, player immersion mechanics, and interactive spatial audio.</p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</p>
+
+## 📊 Development Activity &amp; Statistics
+
+<div align="center">
+
+  <table border="0">
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/sivaajishramr">
+          <img src="https://github-readme-stats.vercel.app/api?username=sivaajishramr&show_icons=true&theme=transparent&hide_border=false&bg_color=0d1117&border_color=21262d&title_color=8da381&icon_color=7ea172&text_color=c9d1d9" alt="Ajish's GitHub Contribution Stats" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/sivaajishramr">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=sivaajishramr&theme=transparent&background=0d1117&border=21262d&stroke=8da381&ring=7ea172&fire=7ea172&currStreakLabel=8da381&sideLabels=8da381&currStreakNum=f0f6fc&sideNums=c9d1d9&dates=6e7681" alt="Ajish's GitHub Streak Stats" width="100%" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/sivaajishramr">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sivaajishramr&layout=donut-vertical&theme=transparent&hide_border=false&bg_color=0d1117&border_color=21262d&title_color=8da381&text_color=c9d1d9&langs_count=6" alt="Ajish's Top Languages" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/sivaajishramr">
+          <img src="https://github-readme-activity-graph.vercel.app/graph?username=sivaajishramr&bg_color=0d1117&color=8da381&line=7ea172&point=f0f6fc&area=true&area_color=7ea172&hide_border=false&border_color=21262d&custom_title=Contribution%20Activity%20Graph" alt="Ajish's Activity Graph" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</p>
+
+## 🤝 Let's Connect
+
+Feel free to reach out to discuss game development, Unity architecture, XR experimentation, or collaborative opportunities:
+
+<p align="left">
+  <a href="https://github.com/sivaajishramr">
+    <img src="https://img.shields.io/badge/GitHub-sivaajishramr-12161c?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub Profile" />
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/siva-ajish-ram-181353323">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Ajish-12161c?style=for-the-badge&logo=linkedin&logoColor=0077b5" alt="LinkedIn Profile" />
   </a>
-  <a href="https://www.instagram.com/_ajish__27/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  &nbsp;
+  <a href="mailto:your_email@example.com">
+    <img src="https://img.shields.io/badge/Email-Get_in_Touch-18241b?style=for-the-badge&logo=gmail&logoColor=8da381" alt="Email" />
   </a>
 </p>
 
----
+<br />
 
-<p align="center">
-  <b>💜 If you like my projects, give them a ⭐ and let's connect!</b>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=100&section=footer" width="100%" alt="Footer"/>
-</p>
-]]>
+<div align="center">
+  <img src="./assets/footer.svg" alt="Footer Divider" width="100%" />
+</div>

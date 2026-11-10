@@ -1,0 +1,11 @@
+<svg width="100%" height="auto" viewBox="0 0 960 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="12" x2="450" y2="12" stroke="#1f2833" stroke-width="1"/>
+  <line x1="450" y1="12" x2="466" y2="12" stroke="#7ea172" stroke-width="1.5" stroke-opacity="0.6"/>
+  
+  <!-- Center Diamond / Crosshair -->
+  <polygon points="480,7 485,12 480,17 475,12" fill="#141c15" stroke="#7ea172" stroke-width="1"/>
+  <circle cx="480" cy="12" r="1.5" fill="#8da381"/>
+
+  <line x1="494" y1="12" x2="510" y2="12" stroke="#7ea172" stroke-width="1.5" stroke-opacity="0.6"/>
+  <line x1="510" y1="12" x2="960" y2="12" stroke="#1f2833" stroke-width="1"/>
+</svg>
